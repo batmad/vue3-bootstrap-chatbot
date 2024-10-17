@@ -1,0 +1,35 @@
+{
+  "name": "gemini-chatbot",
+  "version": "1.0.0",
+  "description": "A chatbot application using Gemini API with Node.js and Express.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chatbot",
+    "gemini",
+    "api",
+    "nodejs",
+    "express"
+  ],
+  "author": "bobyatmadja",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.17.1",
+    "gemini-g4f": "^12.3.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
